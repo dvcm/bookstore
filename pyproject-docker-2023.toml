@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "docker 6-4-2023"
+version = "0.1.3"
+description = "Docker resolvendo dependecias"
+authors = ["Patrick Passarella <pshaggy@gmail.com>"]
+readme = "README.md"
+packages = [{include = "docker 6_4_2023"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
