@@ -1,0 +1,12 @@
+
+    # mypy
+    .mypy_cache
+    .dmypy.json
+    dmypy.json
+
+    # Pyre type checker
+    .pyre/
+
+    __pycache__
+    *.pyc
+    db.sqlite3

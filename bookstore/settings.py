@@ -26,7 +26,8 @@ SECRET_KEY = "django-insecure-ssoghru$%04jj471axkz8w71$vlre8dx)+=e(8k%6r-dcw@asg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []'localhost', '127.0.0.1', 'ebac-bookstore-app.herokuapp.com'
+
 
 # Application definition
 
@@ -38,9 +39,9 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "django_extensions",
-    "rest_framework",
     "order",
     "product",
+    "rest_framework",
     "debug_toolbar",
     "rest_framework.authtoken",
 ]
@@ -56,8 +57,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
-if DEBUG is False:
-    del MIDDLEWARE[0]
+
 
 ROOT_URLCONF = "bookstore.urls"
 
@@ -79,9 +79,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "bookstore.wsgi.application"
 
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
@@ -139,6 +138,8 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+
+
 REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 5,
@@ -155,6 +156,8 @@ INTERNAL_IPS = [
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
-DEBUG = int(os.environ.get("DEBUG", default=0))
+#DEBUG = int(os.environ.get("DEBUG", default=0))
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'ebac-bookstore-api.herokuapp.com']
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "ebac-bookstore-apii.herokuapp.com"]
+
+STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
