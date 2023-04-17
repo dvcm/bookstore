@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="716aa149-dbb0-424a-b74f-ef4c905716f4" name="Changes" comment="teste 16 4 23">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pyproject.toml" afterDir="false" />
+    <list default="true" id="9dc73ab6-4612-4638-88b6-0b143dcd7e45" name="Changes" comment="teste 16 4 23">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
@@ -17,14 +25,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ebac-bookstore-apii" />
+        <entry key="$PROJECT_DIR$/python-getting-started" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -33,16 +48,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="ebac-bookstore-apii" />
-                    <option name="lastUsedInstant" value="1681695089" />
+                    <option name="branchName" value="apii" />
+                    <option name="lastUsedInstant" value="1681571352" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1681695088" />
+                    <option name="lastUsedInstant" value="1681571351" />
                   </RecentBranch>
                 </list>
               </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/python-getting-started" />
             </RecentBranchesForRepo>
           </list>
         </option>
@@ -52,7 +67,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2OX3ElmIx9SaifTQGxNYBzaesOT" />
+  <component name="ProjectId" id="2OT3B7nKwRSn7PQfzGs8RQIWaAt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -62,66 +77,27 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "ebac-bookstore-apii",
-    "last_opened_file_path": "/home/ebac/Desktop/bookstorx"
+    "last_opened_file_path": "/home/ebac/Desktop/git commit bookstore",
+    "settings.editor.selected.configurable": "GitLink.ProjectSettings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="716aa149-dbb0-424a-b74f-ef4c905716f4" name="Changes" comment="" />
-      <created>1681692989820</created>
+      <changelist id="9dc73ab6-4612-4638-88b6-0b143dcd7e45" name="Changes" comment="" />
+      <created>1681570606086</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1681692989820</updated>
+      <updated>1681570606086</updated>
     </task>
-    <task id="LOCAL-00001" summary="teste 16 4 23">
-      <created>1681695002101</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681695002101</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/ebac-bookstore-apii" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/ebac-bookstore-apii" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="TEXT_FILTER_SETTINGS">
-                <TextFilterSettings>
-                  <option name="MATCH_CASE" value="true" />
-                </TextFilterSettings>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
